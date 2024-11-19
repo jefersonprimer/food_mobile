@@ -28,6 +28,10 @@ export default function Index() {
 
       <TrendingFood/>
 
+      <Section name="Comidas Novas" label="Veja mais" action={ () => console.log("clicou no veja mais") } size="text-2xl"/>
+
+      <TrendingFood/>
+
       <Section name="Famosos no DevFood" label="Veja todos" action={ () => console.log("clicou no famosos") } size="text-xl"/>
 
       <Restaurants/>
